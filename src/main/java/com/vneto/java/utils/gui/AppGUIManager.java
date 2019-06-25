@@ -66,7 +66,7 @@ public class AppGUIManager {
 		LoginWndAdapter logAdapt = new LoginWndAdapter(); 
 		wnd.addWindowListener(logAdapt);
 		
-		for (Component comp: ( (JPanel)wnd.getContentPane().getComponent(1) ).getComponents() ) {
+		for (Component comp: ( (JPanel)wnd.getContentPane().getComponent(2) ).getComponents() ) {
 			if( comp instanceof JButton ) {
 				btn = (JButton)comp;
 				btn.addActionListener(logAdapt);
@@ -158,7 +158,7 @@ public class AppGUIManager {
 				else	
 					txtFld = new JTextField();
 				
-				panelFlds.add(txtFld, BorderLayout.NORTH);
+				panelFlds.add(txtFld);
 
 				if(bestFit) {
 					if(fldDim == null) {
