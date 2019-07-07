@@ -8,7 +8,7 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.FontMetrics;
 import java.awt.GridLayout;
-import java.awt.Panel;
+//import java.awt.Panel;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
