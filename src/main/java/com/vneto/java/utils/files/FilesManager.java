@@ -66,5 +66,9 @@ public class FilesManager {
 					fos.write(buff, 0, nBytes);
 				}	
 		}
-	}	
+	}
+	
+	public static void saveFile(String inFileNm, String outFileNm) throws IOException {
+		saveFile(new File(inFileNm), outFileNm);
+	}
 }
